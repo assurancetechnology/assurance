@@ -37,6 +37,16 @@ sydDOM.contactBody = () =>{
                     style:'display:flex;flex-direction:column;row-gap:10px;'
                 },
                 [
+                    createElement('strong',{style:'text-transform:capitalize;color:#171717'},['email address']),
+                    createElement('p',{style:'font-weight:400;font-size:14px;margin-left:20px'},['assurancetechnology9@gmail.com'])
+                ]
+            ),
+            createElement(
+                'div',
+                {
+                    style:'display:flex;flex-direction:column;row-gap:10px;'
+                },
+                [
                     createElement('strong',{style:'text-transform:capitalize;color:#171717'},['phone number']),
                     createElement('p',{style:'font-weight:400;font-size:14px;margin-left:20px'},['09073338222'])
                 ]
