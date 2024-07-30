@@ -273,9 +273,34 @@ input::-webkit-inner-spin-button{
     transition: none;
     /* animation-direction: alternate-reverse; */
 }
+.expandText_pic
+{
+    width: 55%;
+    /* color:#15cbfc; */
+    padding:20px;
+}
+.expandImg_pic
+{
+    width: 30%;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    transition: none;
+    /* animation-direction: alternate-reverse; */
+}
+.ceo_name::first-letter
+{
+    font-size: 35px;
+    font-style: oblique;
+    font-family: cursive;
+}
 @media screen and (max-width:716px) 
 {
     .expandText, .expandImg
+    {
+        width: 100%;
+    }
+    .expandText_pic, .expandImg_pic
     {
         width: 100%;
     }
