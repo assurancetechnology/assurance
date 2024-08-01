@@ -214,8 +214,8 @@ sydDOM.contactIcons = () =>{
             class:'animateEntrance'
         },
         [
-            createElement('a',{style:styleComponent.menuBox({method:'add',style:{height:'40px',width:'40px',animationDuration:'.8s'}}) + styleComponent.bg({method:'add',style:{backgroundImage:`url("assets/phone.png")`}}),class:'mainPanelXEntrance',href:'tel:09078762938'}),
-            createElement('div',{style:styleComponent.menuBox({method:'add',style:{height:'40px',width:'40px'}})  + styleComponent.bg({method:'add',style:{backgroundImage:`url("assets/whatsapp.png")`}}),class:''}),
+            createElement('a',{style:styleComponent.menuBox({method:'add',style:{height:'40px',width:'40px',animationDuration:'.8s'}}) + styleComponent.bg({method:'add',style:{backgroundImage:`url("assets/phone.png")`}}),class:'mainPanelXEntrance',href:'tel:09073338222'}),
+            createElement('a',{style:styleComponent.menuBox({method:'add',style:{height:'40px',width:'40px'}})  + styleComponent.bg({method:'add',style:{backgroundImage:`url("assets/whatsapp.png")`}}),class:'',href:'wa.me/+2349073338222'}),
         ]
     )
 }
