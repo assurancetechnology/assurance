@@ -428,7 +428,7 @@ sydDOM.createMainMenuLinkBtn = ({content}) =>{
             onmouseover:`animateLinkText(this,'${content}')`,
             onmouseout:`de_animateLinkText(this,'${content}')`,
             // onclick:`loadDecForm('${content}')`
-            href:`${content.toLowerCase() === 'profile' ? 'index' : content.toLowerCase()}.html`
+            href:`${content.toLowerCase() === 'products' ? 'index' : content.toLowerCase()}.html`
         },
         [
             content,
