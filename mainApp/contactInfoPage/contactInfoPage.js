@@ -83,7 +83,7 @@ sydDOM.contactInfoPage = () =>{
 
 sydDOM.createLinkBtn = ({content,link = true,type = ''}) =>{
     const linkAttr = () =>{
-        return link ? {href:type === 'shop' ? `${content.toLowerCase() === 'profile' ? 'index' : content.toLowerCase()}.html` : ``} : {}
+        return link ? {href:type === 'shop' ? `${content.toLowerCase() === 'products' ? 'index' : content.toLowerCase()}.html` : ``} : {}
     }
     return createElement(
         link === true ? 'a' : 'p',
