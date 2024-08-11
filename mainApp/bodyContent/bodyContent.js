@@ -328,8 +328,8 @@ sydDOM.floatBodyContent_Mmenu = () =>{
                     style:'list-style-type:none;display:flex;flex-direction:column'//#1097f3
                 },
                 [
-                    createElement('a',{style:styleComponent.menuList(),class:'click',href:'index.html'},['Profile']),
-                    createElement('a',{style:styleComponent.menuList(),class:'click',href:`products.html`},['Products']),
+                    createElement('a',{style:styleComponent.menuList(),class:'click',href:'profile.html'},['Profile']),
+                    createElement('a',{style:styleComponent.menuList(),class:'click',href:`index.html`},['Products']),
                     createElement('a',{style:styleComponent.menuList(),class:'click',href:'contact.html'},['Contact']),
                     // createElement('a',{style:styleComponent.menuList(),class:'click',onclick:'loadDecForm("apple")'},['apple']),
                     // createElement('a',{style:styleComponent.menuList(),class:'click',onclick:'loadDecForm("lenovo")'},['lenovo']),
